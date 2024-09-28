@@ -21,4 +21,3 @@ let isLoggedIn = 1 // will give fale on 0 and true on any integer
 // "abc" => value will be true 
 let booleanIsLogggedIn = Boolean(isLoggedIn)
 console.log(booleanIsLogggedIn)
-
