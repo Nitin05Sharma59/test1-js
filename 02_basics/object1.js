@@ -51,3 +51,28 @@ console.log(Object.entries(app));
 //accessing value from the value stored in arary 
 console.log(users[0].email);
 console.log(users[1].email);
+
+
+// //destructuring a value 
+const course = {
+    coursename:"JS",
+    fees:"1000",
+    courseinstructor:"Nitin"
+}
+
+const {courseinstructor:instructor} = course//destructuring
+console.log(instructor);
+
+//API
+//the value comes in form of JSON
+//JSON=> JS oject notation
+// {
+//     "name":"Nitin",
+//     "coursename":"JAVA",
+// }//this is the form of JSON
+//sometime we get values in form of arrays 
+// [
+//     {},
+//     {},
+//     {}
+// ]
