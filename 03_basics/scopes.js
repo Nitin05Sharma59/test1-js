@@ -14,7 +14,7 @@ console.log(c); //will print the value of c and this will occur a problem of sco
 console.log(a);
 
 
-nested scope 
+//nested scope 
 function abc(){
     const name="Nitin"
 
