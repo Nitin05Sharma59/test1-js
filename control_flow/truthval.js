@@ -7,3 +7,16 @@ false,0,-0,BigInt,0n,"",null,undefined,NaN
 /*
 "0",'false'," ",[],object,function(){},
 */
+const emptyobj ={}
+
+if(Object.keys(emptyobj).length===0){
+    console.log("Empty array");
+}
+//nullish coalescing operator (??): Null Operator
+
+let val1;
+//val1=7;
+val1=null??7
+
+console.log(val1);
+
